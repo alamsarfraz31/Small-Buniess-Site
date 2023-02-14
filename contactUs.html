@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Find  Your Dream Home</title>
+</head>
+<body>
+    <nav>
+        <ul class="topnav"  id="dropdownClick">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Contact">Contact Us</a></li>
+            <li class="topnav-right"><a href="#Sign Up">Sign Up</a></li>
+            <li class="topnav-right"><a href="#Sign In">Sign In</a></li>
+            <li class="dropdownIcon" onclick="dropdownMenu()"><a href="javascript:void(0);">&#9776;</a></li>
+        </ul>
+
+    </nav>
+
+    <center>
+
+        <h1>Contact Information</h1>
+                          <p>Contact Us via other channels listed below</p>
+                          
+                          <div className="icons">
+                              <span>
+                                  <i class="fa fa-mobile-phone" style="font-size:36px"></i>
+                                  <p>012345679</p>
+                              </span>
+                              <span>
+                                <i class="fa fa-envelope" style="font-size:36px"></i>
+                                  <p>support@example.com</p>
+                              </span>
+                              <span>
+                                <i class="fa fa-map-marker" style="font-size:36px"></i>
+                                  <p>Kanpur, Uttar Pradesh</p>
+                              </span>
+                              <span>
+                                <i class="fa fa-twitter" style="font-size:36px"></i>
+                                  <p>@kanpur</p>
+                              </span>
+                          </div>
+    
+        </center>
+    <footer class="footsy">
+        <div class="row">
+            <div class="col-3 mobileStack">
+                <h1>Company</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="col-3 mobileStack">
+                <h1>Company</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="col-3 mobileStack">
+                <h1>Company</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="col-3 mobileStack">
+                <h1>Company</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script>
+        function dropdownMenu(){
+            var x = document.getElementById("dropdownClick");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+                /*Change topnav to  topnv.responsive*/
+            } else{
+                x.className = "topnav";
+
+            }
+        }
+
+    </script>
+</body>
+</html>
